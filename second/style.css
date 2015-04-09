@@ -1,0 +1,44 @@
+html, body {
+
+	height: 100%;
+	width: 100%;
+}
+
+.left {
+  background-color: #4A90E2;
+  float: left;
+  left: 0;
+  height: 100%;
+  width: 33.3%;
+  display: block;
+
+}
+
+.middle {
+  background-color: #58E2C2;
+  height: 100%;
+  width: 33.3%;
+  display: block;
+  float: left;
+}
+
+.top-right {
+  background-color: #B8E986;
+  float: right;
+  width: 33.3%;
+  height: 80%;
+  top: 0;
+  clear: right;
+  display: block;
+
+}
+
+.bottom-right {
+  float: right;
+  bottom: 0;
+  overflow: hidden;
+  width: 33.3%;
+  clear: right;
+  height: 20%;
+  display: block;
+}
