@@ -17,7 +17,7 @@ html, body {
 .middle {
   background-color: #58E2C2;
   height: 100%;
-  width: 33.3%;
+  width: 33.4%;
   display: block;
   float: left;
 }
@@ -33,12 +33,17 @@ html, body {
 
 }
 
-.bottom-right {
-  float: right;
+img {
   bottom: 0;
   overflow: hidden;
-  width: 33.3%;
+  width: 33.3vh;
   clear: right;
-  height: 20%;
+  height: 20vh;
   display: block;
+}
+
+@media screen and (max-height: 100%){
+    .ei-slider{
+      max-height: 20%;
+    }   
 }
